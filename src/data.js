@@ -9,6 +9,21 @@ export default {
   },
   projects: [
     {
+      id: 3,
+      name: 'Flit (Work in Progress)',
+      description: 'Tracks and visualizes realtime sentiment on Twitter.',
+      link: 'https://github.com/JordanAdams/flit-client',
+      type: 'website',
+      tech: [
+        'JavaScript',
+        'React.js',
+        'Redux',
+        'WebSockets',
+        'Redis',
+        'PostCSS'
+      ]
+    },
+    {
       id: 2,
       name: 'Livecoding.tv API Wrapper',
       description: 'An unopinionated API wrapper for the Livecoding.tv REST API.',
