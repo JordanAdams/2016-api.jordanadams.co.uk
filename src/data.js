@@ -13,7 +13,6 @@ export default {
       name: 'Livecoding.tv API Wrapper',
       description: 'An unopinionated API wrapper for the Livecoding.tv REST API.',
       link: 'https://github.com/JordanAdams/js-livecodingtv-api',
-      created: '2016-03-03',
       type: 'package',
       tech: ['JavaScript']
     },
@@ -22,7 +21,6 @@ export default {
       name: 'GraphQL Documentation Checker',
       description: 'Quickly finds any missing documentation in a GraphQL Schema using introspection. Performs inspections remotely, without any need to access code.',
       link: 'https://github.com/JordanAdams/graphql-doc-check',
-      created: '2016-02-10',
       type: 'command line tool',
       tech: ['JavaScript']
     },
@@ -31,7 +29,6 @@ export default {
       name: 'WhatTodo',
       description: 'Searches all code in a directory for TODO/FIXME etc. style comments. The comments are then displayed cleanly to the user.',
       link: 'https://github.com/JordanAdams/whattodo',
-      created: '2016-01-05',
       type: 'command line tool',
       tech: ['JavaScript']
     }
