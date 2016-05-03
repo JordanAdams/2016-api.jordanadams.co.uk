@@ -2,10 +2,19 @@ export default {
   about: {
     name: 'Jordan Adams',
     type: 'Developer',
-    tech: ['JavaScript', 'Node.js', 'PHP', 'MongoDB', 'HTML & CSS'],
     email: 'hi@jordanadams.co.uk',
     location: 'Huddersfield, UK',
-    job: 'Developer @ XEDI Ltd'
+    job: 'Developer @ XEDI Ltd',
+    tech: [
+      'JavaScript',
+      'Node.js',
+      'PHP',
+      'Laravel',
+      'MongoDB',
+      'React.js',
+      'Redux',
+      'HTML & CSS'
+    ],
   },
   projects: [
     {
