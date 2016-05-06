@@ -12,8 +12,8 @@ export default [
       links: {
         'self': link('/'),
         'projects': link('/projects'),
-        'profiles': link('/profiles'),
-        'stats': link('/stats')
+        'profiles': link('/profiles')
+        // 'stats': link('/stats')
       }
     })
   },
