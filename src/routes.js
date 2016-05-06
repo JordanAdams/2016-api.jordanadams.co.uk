@@ -1,7 +1,4 @@
-import config from './config'
 import data from './data'
-
-const link = (endpoint) => `${config.baseUrl}${endpoint}`
 
 export default [
   {
@@ -10,10 +7,10 @@ export default [
     handler: (request, reply) => reply({
       data: data.about,
       links: {
-        'self': link('/'),
-        'projects': link('/projects'),
-        'profiles': link('/profiles')
-        // 'stats': link('/stats')
+        'self': '/',
+        'projects': '/projects',
+        'profiles': '/profiles'
+        // 'stats': '/stats'
       }
     })
   },
@@ -23,8 +20,8 @@ export default [
     handler: (request, reply) => reply({
       data: data.projects,
       links: {
-        self: link('/projects'),
-        root: link('/')
+        self: '/projects',
+        root: '/'
       }
     })
   },
@@ -34,8 +31,8 @@ export default [
     handler: (request, reply) => reply({
       data: data.profiles,
       links: {
-        self: link('/profiles'),
-        root: link('/')
+        self: '/profiles',
+        root: '/'
       }
     })
   },
@@ -45,8 +42,8 @@ export default [
     handler: (request, reply) => reply({
       data: {},
       links: {
-        self: link('/stats'),
-        root: link('/')
+        self: '/stats',
+        root: '/'
       }
     })
   }
