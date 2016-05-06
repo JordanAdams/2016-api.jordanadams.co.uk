@@ -4,7 +4,7 @@ export default {
     type: 'Developer',
     email: 'hi@jordanadams.co.uk',
     location: 'Huddersfield, UK',
-    job: 'Developer @ XEDI Ltd',
+    job: 'Developer @ XEDI Ltd (Since 2013)',
     tech: [
       'JavaScript',
       'Node.js',
@@ -18,11 +18,15 @@ export default {
   },
   projects: [
     {
-      id: 3,
+      id: 4,
       name: 'Flit (Work in Progress)',
       description: 'Tracks and visualizes realtime sentiment on Twitter.',
-      link: 'https://github.com/JordanAdams/flit-client',
-      type: 'website',
+      type: 'Website',
+      links: {
+        client: 'https://github.com/JordanAdams/flit-client',
+        broadcaster: 'https://github.com/JordanAdams/flit-broadcaster',
+        receiver: 'https://github.com/JordanAdams/flit-receiver'
+      },
       tech: [
         'JavaScript',
         'React.js',
@@ -33,28 +37,43 @@ export default {
       ]
     },
     {
-      id: 2,
+      id: 3,
       name: 'Livecoding.tv API Wrapper',
       description: 'An unopinionated API wrapper for the Livecoding.tv REST API.',
-      link: 'https://github.com/JordanAdams/js-livecodingtv-api',
-      type: 'package',
+      type: 'Package',
+      links: {
+        repo: 'https://github.com/JordanAdams/js-livecodingtv-api',
+      },
+      tech: ['JavaScript']
+    },
+    {
+      id: 2,
+      name: 'GraphQL Documentation Checker',
+      description: 'Quickly finds any missing documentation in a GraphQL Schema using introspection. Performs inspections remotely, without any need to access code.',
+      type: 'Command Line Tool',
+      links: {
+        repo: 'https://github.com/JordanAdams/graphql-doc-check',
+        package: 'https://www.npmjs.com/package/graphql-doc-check'
+      },
       tech: ['JavaScript']
     },
     {
       id: 1,
-      name: 'GraphQL Documentation Checker',
-      description: 'Quickly finds any missing documentation in a GraphQL Schema using introspection. Performs inspections remotely, without any need to access code.',
-      link: 'https://github.com/JordanAdams/graphql-doc-check',
-      type: 'command line tool',
+      name: 'WhatTodo',
+      description: 'Searches all code in a directory for TODO/FIXME etc. style comments. The comments are then displayed cleanly to the user.',
+      type: 'Command Line Tool',
+      links: {
+        repo: 'https://github.com/JordanAdams/whattodo',
+        package: 'https://www.npmjs.com/package/whattodo'
+      },
       tech: ['JavaScript']
     },
     {
       id: 0,
-      name: 'WhatTodo',
-      description: 'Searches all code in a directory for TODO/FIXME etc. style comments. The comments are then displayed cleanly to the user.',
-      link: 'https://github.com/JordanAdams/whattodo',
-      type: 'command line tool',
-      tech: ['JavaScript']
+      name: 'XEDI (Employer)',
+      description: 'A highly flexible EDI platform enabling supply chain for retailers and suppliers. I\'m a core developer and joined the XEDI project in it\'s infancy',
+      type: 'Web Application',
+      tech: ['PHP', 'MongoDB', 'Bootstrap', 'JavaScript', 'jQuery']
     }
   ],
   profiles: {
