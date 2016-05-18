@@ -23,6 +23,7 @@ export default {
       description: 'Tracks and visualizes realtime sentiment on Twitter.',
       type: 'Website',
       links: {
+        website: 'http://flit.jordanadams.co.uk',
         client: 'https://github.com/JordanAdams/flit-client',
         broadcaster: 'https://github.com/JordanAdams/flit-broadcaster',
         receiver: 'https://github.com/JordanAdams/flit-receiver'
